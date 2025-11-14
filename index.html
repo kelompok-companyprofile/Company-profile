@@ -3,8 +3,352 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Aurion — The Future of Innovation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="icon" type="img/persatu.jpeg" href="assets/img/iconaurion.png" />
   </head>
-  <body></body>
+
+  <body>
+    <!-- Enhanced Background with Particles -->
+    <div class="particles" id="particles"></div>
+    <div class="light-effect light-top-left"></div>
+    <div class="light-effect light-top-right"></div>
+    <div class="light-effect light-bottom-left"></div>
+    <div class="light-effect light-bottom-right"></div>
+
+    <!-- Header/Navbar (UNCHANGED) -->
+    <!-- Navbar -->
+    <section class="hero-section">
+      <header>
+        <div class="logo">
+          <img src="assets/img/iconaurion.png" alt="logo" href="index.html" />
+          <span>Aurion</span>
+        </div>
+
+        <nav class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="service.html">Service</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="free-trial" href="#">Free Trial</button>
+
+        <!-- Hamburger menu -->
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </header>
+    </section>
+
+    <!-- Hero -->
+    <section class="hero">
+      <h1>Automate workflows. <br />Unlock <span>team potential</span>.</h1>
+      <p>
+        Aurion helps 5,000 teams automate repetitive tasks, reduce errors, and
+        focus on what matters — all from one intuitive dashboard.
+      </p>
+      <div class="hero-cta">
+        <a href="#" class="btn-primary">Start Free Trial</a>
+        <a href="#" class="btn-secondary">View Demo →</a>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features-section">
+      <div class="section-header">
+        <h2>Powerful features for modern teams</h2>
+        <p>
+          Designed by engineers, for engineers — but simple enough for everyone.
+        </p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3>Smart Automation</h3>
+          <p>
+            Build custom workflows with our no-code engine. Trigger actions
+            across 100+ apps.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Enterprise Security</h3>
+          <p>
+            End-to-end encryption, SOC 2 compliant, and GDPR-ready from day one.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3>Real-Time Analytics</h3>
+          <p>Track performance, bottlenecks, and ROI with live dashboards.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-sync-alt"></i>
+          </div>
+          <h3>Seamless Integrations</h3>
+          <p>
+            Connect with Slack, Google Workspace, Salesforce, Notion, and more.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section (3 Items) -->
+    <section class="stats-section">
+      <div class="section-header">
+        <h2>By the Numbers</h2>
+        <p>Real impact, real results — see why teams love Aurion.</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number" data-target="5000">+</span>
+          <span class="stat-label">Teams Using Aurion</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="100">+</span>
+          <span class="stat-label">Integrations</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="80">%</span>
+          <span class="stat-label">Time Saved</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- How We Work -->
+    <section class="workflow-section">
+      <div class="section-header">
+        <h2 class="workflow-title">How Aurion transforms your workflow</h2>
+        <p class="workflow-subtitle">
+          From idea to execution — faster, smarter, and with full visibility.
+        </p>
+      </div>
+      <div class="workflow-cards">
+        <div class="workflow-card">
+          <img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=200&q=80"
+            alt="Plan"
+          />
+          <h3>Plan & Strategize</h3>
+          <p>
+            Define your goals and map your workflow with our visual builder.
+          </p>
+        </div>
+        <div class="workflow-card">
+          <img
+            src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=200&q=80"
+            alt="Build"
+          />
+          <h3>Build & Automate</h3>
+          <p>Drag, drop, and connect actions — no coding required.</p>
+        </div>
+        <div class="workflow-card">
+          <img
+            src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=200&q=80"
+            alt="Scale"
+          />
+          <h3>Scale & Optimize</h3>
+          <p>
+            Monitor, iterate, and scale your automations as your team grows.
+          </p>
+        </div>
+        <div class="workflow-card">
+          <img
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=200&q=80"
+            alt="Support"
+          />
+          <h3>Monitor & Support</h3>
+          <p>
+            Get 24/7 support and continuous updates to keep your automations
+            running smoothly.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+      <div class="section-header">
+        <h2>Trusted by forward-thinking teams</h2>
+        <p>
+          Join thousands of companies using Aurion to drive efficiency and
+          innovation.
+        </p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            “Aurion cut our manual reporting time by 80%. Now we focus on
+            strategy, not spreadsheets.”
+          </p>
+          <div class="client-info">
+            <div class="client-avatar">SJ</div>
+            <div class="client-details">
+              <h4>Sarah Johnson</h4>
+              <p>Operations Lead, Nova Labs</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            “The integration with our existing tools was seamless. Set up took
+            less than an hour.”
+          </p>
+          <div class="client-info">
+            <div class="client-avatar">MR</div>
+            <div class="client-details">
+              <h4>Michael Rivera</h4>
+              <p>CTO, Zenith Corp</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="testimonial-text">
+            “Finally, a platform that understands enterprise needs without the
+            enterprise complexity.”
+          </p>
+          <div class="client-info">
+            <div class="client-avatar">AL</div>
+            <div class="client-details">
+              <h4>Aisha Lee</h4>
+              <p>Product Director, Stratos</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            “Aurion has revolutionized how we handle data across departments.
+            Incredible value.”
+          </p>
+          <div class="client-info">
+            <div class="client-avatar">DK</div>
+            <div class="client-details">
+              <h4>David Kim</h4>
+              <p>Engineering Manager, TechNova</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Integrations -->
+    <section class="integrations-section">
+      <h3 class="integrations-title">
+        Works seamlessly with your favorite tools
+      </h3>
+      <div class="logos">
+        <div class="logo-item"><i class="fab fa-slack"></i></div>
+        <div class="logo-item"><i class="fab fa-google"></i></div>
+        <div class="logo-item"><i class="fab fa-microsoft"></i></div>
+        <div class="logo-item"><i class="fab fa-salesforce"></i></div>
+        <div class="logo-item"><i class="fas fa-database"></i></div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta-section">
+      <div class="cta-container">
+        <h2>Ready to transform your workflow?</h2>
+        <p>
+          Join thousands of teams automating with Aurion. No credit card
+          required.
+        </p>
+        <a href="#" class="btn-primary">Start Your Free Trial</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Fast Links -->
+      <section class="footer-links">
+        <div class="footer-logo">
+          <img src="assets/img/iconfooter.png" alt="Aurion" />
+        </div>
+        <div class="footer-columns">
+          <div class="column">
+            <h4>Fast Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="service.html">Service</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="column1">
+            <h4>Description</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              temporibus unde atque asperiores ducimus optio.
+            </p>
+          </div>
+          <div class="column">
+            <h4>Socials</h4>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Credit -->
+      <section class="footer-credit">
+        <p>© 2025 Aurion. All right reserved.</p>
+        <div class="footer-policy">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms and Conditions</a>
+        </div>
+      </section>
+    </footer>
+
+    <script src="assets/js/home.js"></script>
+  </body>
 </html>
