@@ -1,0 +1,11 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lingkaran luar putih -->
+  <circle cx="40" cy="40" r="30" fill="white"/>
+
+  <!-- Garis horizontal kiri-kanan -->
+  <line x1="10" y1="40" x2="30" y2="40" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <line x1="50" y1="40" x2="70" y2="40" stroke="black" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Lingkaran tengah outline hitam -->
+  <circle cx="40" cy="40" r="12" fill="white" stroke="black" stroke-width="4"/>
+</svg>
